@@ -3,7 +3,7 @@ import React from 'react';
 const Button = () => {
 
     const getMoreFilms = () => {
-        <p>More Films</p>
+        window.location.href="https://www.imdb.com/calendar/?region=gb";
     }
     
     return(
