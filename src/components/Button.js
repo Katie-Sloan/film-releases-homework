@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Button.css'
 
 const Button = () => {
 
@@ -7,7 +8,7 @@ const Button = () => {
     }
     
     return(
-        <button onClick={() => getMoreFilms()}>View more upcoming releases</button>
+        <button id="button" onClick={() => getMoreFilms()}>View more upcoming releases</button>
     )
 }
 
